@@ -1,4 +1,7 @@
 <?php
+require_once("db.php");
+?>
+<?php
 if (isset($_REQUEST['didd'])) {
     $id = $_REQUEST['didd'];
     $query = "select * from student where id=$id";
